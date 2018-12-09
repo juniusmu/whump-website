@@ -33,6 +33,10 @@ body.fade-out{
     /* background: #EDB5BF !important; */
     background: #5F6366 !important;
 }
+#resume{
+    height: 85vh;
+    background: #5F6366 !important;
+}
 #software{
     /* height: 100vh; */
     /*height: 85vh;*/
