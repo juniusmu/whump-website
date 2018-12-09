@@ -1,0 +1,97 @@
+html{
+    background-color: grey;
+}
+
+body{
+    opacity: 1;
+    transition: 3s opacity;
+}
+
+body.fade-out{
+    opacity: 0;
+    transition: none;
+}
+
+#top-navbar{
+    height: 15vh;
+    background: #EFEFEF !important; 
+    border-bottom: 1px #5F6366 solid ;
+}
+.jumbotron{
+    height : 85vh;
+    background: #5F6366 !important;
+}
+#about-me{
+    /* height: 100vh; */
+    height: 85vh;
+    /* background: #4D6D9A !important; */
+    background: #EFEFEF !important;
+}
+#resume-img{
+    /* height: 100vh; */
+    height: 85vh;
+    /* background: #EDB5BF !important; */
+    background: #5F6366 !important;
+}
+#software{
+    /* height: 100vh; */
+    /*height: 85vh;*/
+    height: 78vh;
+    background: #EFEFEF !important;
+}
+
+#music{
+    /* height: 100vh; */
+    height: 78vh;
+    background: #EFEFEF !important;
+}
+body { 
+    padding-top: 15vh; 
+}
+#name{
+    font-family: Montserrat , serif;
+    color: inherit;
+}
+#dropDown{
+    float:right;
+}
+.abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.my-name{
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#bottom-navbar{
+    background: #5F6366 !important;
+    color: white !important;
+    height: 7vh;
+}
+.dropdown-toggle::after {
+    display:none !important;
+}
+.dropdown-item{
+    color: white !important;
+}
+.dropdown-menu{
+    background: #5F6366 !important;
+}
+.dropdown-item:hover{
+    background: rgb(142, 147, 150)  !important;
+}
+#dropdown-menu-button{
+    background: #5F6366!important;
+    
+}
+#dropdown-menu-button:hover{
+    background: #86B3D1!important;
+}
+.bottom-content{
+    float: left;
+}
+.fa-envelope{
+    vertical-align: middle;
+}
