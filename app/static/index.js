@@ -29,9 +29,9 @@ $(document).ready(function() {
                 console.log("E");
                 endPos = $("#youtube").offset().top;
                 break;
-            case "music-link":
+            case "slideshow-link":
                 console.log("F");
-                endPos = $("#music").offset().top;
+                endPos = $("#slideshow").offset().top;
                 break;
             default:
                 console.log("G");
