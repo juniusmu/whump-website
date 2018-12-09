@@ -93,6 +93,12 @@ body {
 #dropdown-menu-button:hover{
     background: #86B3D1!important;
 }
+.slideshow-img{
+    height: 50px;
+    width: 50px;
+    /*height: 100%;
+    width: 100%;*/
+}
 .bottom-content{
     float: left;
 }
